@@ -1,7 +1,8 @@
-Package: bbplot
-Title: MAKING GGPLOT GRAPHICS IN BBC NEWS STYLE
-Version: 0.2
+Package: sswplot
+Title: MAKING GGPLOT GRAPHICS IN SOUTH SIDE WEEKLY STYLE
+Version: 0.1
 Authors@R: c(
+    person("Joshua", "Falk", , role = "aut"),
     person("Nassos", "Stylianou", , "nassos.stylianou@bbc.co.uk", c("aut", "cre")),
     person("Clara", "Guibourg", "clara.guibourg@bbc.co.uk", c("aut", "cre")),
     person("Will", "Dahlgreen", "william.dahlgreen@bbc.co.uk", role = "aut"),
@@ -10,7 +11,7 @@ Authors@R: c(
     person("Ransome", "Mpini", , role = "aut")
     )
 Description: Helps create and export ggplot2 charts in the style used by 
-    the BBC News data team thanks to two useful functions, one for styling and another for exporting ggplot graphics
+    the South Side Weekly data team thanks to two useful functions, one for styling and another for exporting ggplot graphics
 Depends: R (>= 3.3.0)
 Imports:
     ggplot2,
